@@ -4,7 +4,7 @@ using Dev.Dominio.modelos;
 namespace Dev.Dominio.Servico
 
 {
-    public class UsuarioServico (IUsuarioRepositorio _usuarioRepositorio): IUsuario //DI
+    public class UsuarioServico (IUsuarioRepositorio _usuarioRepositorio): IUsuarioServico //DI
     {
         public async Task Adicionar(Usuario usuario) //parametro
         {

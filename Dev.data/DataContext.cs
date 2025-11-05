@@ -7,5 +7,11 @@ namespace Dev.data
     {
         public DbSet<Usuario> Usuarios { get; set; }
 
+        public DbSet<Jogos> Jogos { get; set; }
+
+        public DbSet<Pedido> Pedido { get; set; }
+
+        
+
     }
 }
