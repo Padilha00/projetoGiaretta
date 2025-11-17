@@ -9,7 +9,6 @@ namespace Dev.Dominio.Servico
         public async Task Adicionar(Usuario usuario) //parametro
         {
            if (usuario is null)
-
                 throw new Exception("O usuario nao pode ser nulo");
 
             await _usuarioRepositorio.Adicionar(usuario);
@@ -18,7 +17,6 @@ namespace Dev.Dominio.Servico
         public async Task Atualizar(Usuario usuario)
         {
             if (usuario is null)
-
                 throw new Exception("O usuario nao pode ser nulo");
 
             var usuarioDb = await _usuarioRepositorio.LerPorId(usuario.Id);

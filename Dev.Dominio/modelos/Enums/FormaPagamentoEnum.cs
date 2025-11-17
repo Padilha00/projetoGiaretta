@@ -1,6 +1,6 @@
 namespace Dev.Dominio.modelos.Enums
 {
-    public enum PagamentoEnum
+    public enum FormaPagamentoEnum
     {
         CartaoCredito = 1,
         CartaoDebito = 2,
